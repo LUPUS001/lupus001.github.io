@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>METARTECCORP</title>
+        <link></link> <!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+        <description>Esta es una página dedicada al Arte de diferentes paises</description>
+        <language>ES</language>
+        <item>
+            <title>horarioArte</title>
+            <link></link><!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+            <description>Horario de la galería de arte</description>
+        </item>
+        <item>
+            <title>Formulario para entregar tu pieza</title>
+            <link></link><!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+            <description>El formulario a rellenar necesario para entregar tu pieza</description>
+        </item>
+    </channel>
+</rss>

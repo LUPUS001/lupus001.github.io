@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">       
+    <title>Formulario Arte</title>
+    <link rel="stylesheet" href="./estilos2.css">
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO PARA ENTREGAR TUS PIEZAS ARTÍSTICAS</h1>
+    </header>
+
+    <form name="Formulario arte">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" size="30" maxlength="20" placeholder="Escribe tu nombre de usuario" required>
+        <br><br>
+        <label>Correo electrónico:</label> 
+        <input type="email" name="correo" size="30" maxlength="20" placeholder="Escribe tu correo electrónico" required>
+        <br><br>
+        <label>Contraseña:</label>
+        <input type="password" name="contrasena" size="30" maxlength="20" placeholder="Escribe tu contraseña" required>
+        <br><br>
+        <fieldset>
+            <legend>Tus piezas artísticas serán</legend>
+            <input type="checkbox" name="pieza" value="Cuadro">
+            <label>Cuadro</label><br>
+            <input type="checkbox" name="pieza" value="Estatua">
+            <label>Estatua</label><br>
+            <input type="checkbox" name="pieza" value="Sorpresita">
+            <label>Sorpresita/Arte sin cadenas</label><br>
+        </fieldset>
+        <br><br>
+        <label for="conservacion">Consejos para asegurar la buena conservación de la pieza:</label><br>
+        <textarea name="conservacion" id="conservacion" rows="4" cols="71"></textarea>
+        <br><br>            
+        <label for="intereses">Tu pieza la expones con intereses:</label>
+        <select name="intereses" id="intereses" multiple>
+            <option value="Monetarios">Monetarios</option>
+            <option value="No-monetarios">No-monetarios</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+
+    <footer>
+        <ul>
+            <li>Ir a la <a href="./index.html">página principal</a></li>    
+        </ul>
+    </footer>
+</body>
+</html>

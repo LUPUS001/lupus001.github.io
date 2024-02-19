@@ -1,0 +1,79 @@
+h2 {
+  background-color: black;
+  color: green;
+  padding: 10px;
+}
+
+* {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("./elementos multimedia/noche-estrellada-en-la-ciudad-10845.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+a {
+  text-decoration: none;
+  color: #009933;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.video_centrado {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbarVer {
+  background-color: #4CAF50;
+}
