@@ -2,17 +2,17 @@
 <rss version="2.0">
     <channel>
         <title>METARTECCORP</title>
-        <link></link> <!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+        <link>https://lupus001.github.io/</link>
         <description>Esta es una página dedicada al Arte de diferentes paises</description>
         <language>ES</language>
         <item>
             <title>horarioArte</title>
-            <link></link><!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+            <link>https://lupus001.github.io/horarioArte.html</link>
             <description>Horario de la galería de arte</description>
         </item>
         <item>
             <title>Formulario para entregar tu pieza</title>
-            <link></link><!--Aquí pondre mi enlace de GitHub cuando lo tenga-->
+            <link>https://lupus001.github.io/formularioArte.html</link>
             <description>El formulario a rellenar necesario para entregar tu pieza</description>
         </item>
     </channel>
